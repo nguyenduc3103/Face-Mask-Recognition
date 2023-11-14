@@ -16,4 +16,18 @@ Run the following script to crop the faces in the images, overwriting the old on
 
 ```bash
 python crop_img.py
+```
 
+### Step 3: Extract Features
+Run the following script to extract features from the cropped faces and save them to features.json:
+
+```bash
+python calc_features.py
+```
+
+### Step 4: Test the Model
+Run the following script to deploy the model and test its performance:
+
+```bash
+python deploy.py
+```
